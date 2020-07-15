@@ -1,0 +1,17 @@
+h1{
+    color: saddlebrown;
+}
+p{
+    
+}
+.red{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: lowercase;
+    line-height: 25px;
+    
+}
+.green{
+    font: italic small-caps bold 26px/150% arial;
+}

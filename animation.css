@@ -1,0 +1,48 @@
+.mydiv{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation-name: rashed;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes rashed{
+    from{background-color: red;}
+    to{background-color: green; border-radius: 50%;}
+}
+
+.mydiv1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation-name: khan;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes khan{
+    0%{background-color: red;}
+    50%{background-color: blue;}
+    100%{background-color: red;}
+}
+.my{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+
+    animation-name: abir;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: reverse;
+}
+
+@keyframes abir{
+    0%{left: 0; top: 0;}
+    25%{left: 200px; top: 0;}
+    50%{left: 2000px; top: 200px;}
+    75%{left: 0; top: 200px;}
+    100%{left: 0; top: 0;}
+}

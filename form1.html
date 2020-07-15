@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="form1.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>
+            <form action="">
+                firstname:
+                <input type="text" placeholder="name"><br><br>
+                lastname: 
+                <input type="text" placeholder="pass"> <br><br>
+
+                gender: <input type="radio" name="gender" value="male" checked>male
+                <input type="radio" name="gender" value="femail">femail
+                <br><br>
+
+                country:
+                <select name="" id="" class="con">
+                    <option value="">bangladesh</option>
+                    <option value="">india</option>
+                    <option value="" selected>usa</option>
+                    <option value="">uk</option>
+                </select>
+                <br><br>
+
+                birthdate:<input type="date" name="" id="" min="1997-09-19" max="2020-01-10">
+                <br><br>
+                email:<input type="email" name="mail" id="">
+                <br><br>
+                password: <input type="password" name="pass" id="">
+                <br><br>
+                <input type="datetime-local" name="" id="">
+                <br>
+                <br>
+                <input type="file" name="" id="">
+                <br><br>
+                age: <input type="number" min="18" max="20">
+                <br><br>
+                address:<textarea name="" id="" cols="25" rows="2"></textarea>
+                <br><br>
+                <input type="button" value="Submit" class="btn" onclick="btn()">
+
+                <script>
+                    function btn(){
+                        alert("you have click me")
+                    }
+                </script>
+
+                <input type="reset" value="reset">
+            </form>
+        </div>
+    </body>
+</html>

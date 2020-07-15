@@ -1,0 +1,11 @@
+audio{
+    width: 600px;
+    background-color: brown;
+    padding: 10px;
+}
+video{
+    width: 800px;
+    background-color:red;
+    padding: 10px;
+    border-radius: 5px;
+}

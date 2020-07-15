@@ -1,0 +1,40 @@
+input[type=text]{
+    width: 200px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: red;
+}
+.con{
+    width: 200px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: red;
+}
+input[type=password]{
+    width: 200px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: red;
+}
+input[type=email]{
+    width: 200px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: red;
+}
+.btn{
+    width: 109px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 50px 50px 50px 50px;
+    transition: all 1s ease;
+}
+.btn:hover{
+    background: black;
+    color: aliceblue;
+    cursor: pointer;
+}
