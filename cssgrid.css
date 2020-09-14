@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-areas: 'navbar navbar navbar navbar'
+    'side section section section';
+}
+
+.box{
+    background-color: wheat;
+    border: 1px solid black;
+    display: flex;
+}
+#navbar{
+    grid-area: navbar;
+    padding-left: 200px;
+    height: 50px;
+}
+#section{
+    grid-area: section;
+}
+#side{
+    grid-area: side;
+    width: 250px;
+}
+.link{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    size: 20px 20px;
+    margin-top: 200px;
+}

@@ -1,0 +1,36 @@
+#nav{
+    display: flex;
+    background-color: #E0E0E0;
+
+}
+#nav .nav-link{
+    color: black; 
+    cursor: pointer;
+     font-size: 0.8rem;
+}
+
+#nav .bangla{
+    color: black;
+    margin-left: 1250px;
+    margin-top: 9px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.navbar{
+    color: black;
+}
+#item{
+    font-size: 1.2rem;
+    font-family: 'Rowdies', cursive;
+    color: black;
+    margin-top: 10px;
+}
+#logo{
+    position: relative;
+    margin-left: 360px;
+    cursor: pointer;
+}
+#flexi{
+    margin-left: 180px;
+}
